@@ -146,7 +146,7 @@ footer p {
 .notHomeMain h2 {
     width: 70%;
     margin: auto;
-    padding-top: 6%;
+    padding-top: 1%;
     color: whitesmoke;
     font-size: 1.8em;
 }
@@ -209,7 +209,7 @@ section article {
 section img {
     width: 80%;
     height: 100%;
-margin-left: 20%;
+    margin-left: 20%;
     grid-column: 2/3;
 }
 
