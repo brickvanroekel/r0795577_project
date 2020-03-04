@@ -13,7 +13,7 @@ main {
 .underline {
     height: 2px;
     background-color: transparent;
-    width: 0%;
+    width: 0;
     transition: width .3s, background-color .5s;
     margin: 0 auto
 }
@@ -47,7 +47,7 @@ ul {
     margin: auto;
     padding: 0 10%;
     background-color: #36312C;
-    box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px 3px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -156,7 +156,7 @@ table {
     margin: auto;
     background-color: whitesmoke;
     margin-top: 1%;
-    box-shadow: 0px 0px 71px -14px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 71px -14px rgba(0, 0, 0, 1);
 
 }
 
@@ -229,28 +229,30 @@ form {
 label {
     color: black;
     font-size: 1.3em;
-
+    text-align: right;
 }
 
-form input[type=text] {
+form input {
     background-color: lightgray;
     border: 2px solid lightgray;
     border-radius: 10px;
-    margin-bottom: 2%;
+    float: right;
+    margin-right: 15%;
+
 }
 
 input:focus:invalid {
     border: 2px solid red;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 input[type=button] {
-    background-color: lightgray;
     border: 1px solid lightgray;
     border-radius: 50px;
     color: black;
     padding: 2% 6%;
     text-align: center;
     font-size: 1em;
-
+    margin-top: 3%;
 }
+

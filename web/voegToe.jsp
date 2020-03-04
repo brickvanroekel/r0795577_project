@@ -47,18 +47,17 @@
                 <input type="text" id="stijl" name="stijl" required>
                 <br>
                 <label for="grootte">Grootte:</label>
-                <input type="text" id="grootte" name="grootte" required>
+                <input type="number" id="grootte" name="grootte" required>
                 <br>
                 <label for="plaats">Plaats:</label>
                 <input type="text" id="plaats" name="plaats" required>
                 <br>
                 <label for="prijs">Prijs:</label>
-                <input type="text" id="prijs" name="prijs" required>
+                <input type="number" id="prijs" name="prijs" required>
                 <br>
                 <a href="overzicht.jsp"><input type="button" value="Verstuur"></a>
             </form>
         </article>
-
         <img src="images/card.jpg" alt="">
     </section>
 </main>
